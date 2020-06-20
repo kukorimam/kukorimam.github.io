@@ -27,3 +27,14 @@ li {
     font-weight: 600;
     color: rgb(0, 0, 0);
 }
+
+.contact input {
+    color: rgb(0, 0, 0);
+}
+
+
+
+.contact legend {
+    font-weight: 900; 
+    font-size: 2.5rem;
+}
