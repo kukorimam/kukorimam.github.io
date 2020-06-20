@@ -32,9 +32,15 @@ li {
     color: rgb(0, 0, 0);
 }
 
-
+.contact a:hover {
+    color: rgb(175, 175, 175);
+}
 
 .contact legend {
     font-weight: 900; 
     font-size: 2.5rem;
+}
+
+.socials {
+    display: inline-block;
 }
