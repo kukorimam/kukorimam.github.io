@@ -69,20 +69,18 @@
 
       <!-- Contact -->
       <div class="uk-container contact">
-        <form action="config/contact.php" >
+        <form id="contact-form" method="post" action="config/contact.php" role="form">
           <fieldset class="uk-fieldset">   
             <legend class="uk-legend">Contact Form</legend>
             <p>You can write to me here: <a href="mailto:kukorimam@live.com" style="text-decoration: underline;">kukorimam@live.com</a> or fill the form below</p>
             <div class="uk-margin">
-              <input class="uk-input" type="text" required="required" placeholder="Name">
+              <input class="uk-input" type="text" name="name" required="required" placeholder="Fullname">
             </div>
-
             <div class="uk-margin">
-              <input class="uk-input" type="email" required="required" placeholder="Email Address">
+              <input class="uk-input" type="email"name="email"  required="required" placeholder="Email Address">
             </div>
-    
             <div class="uk-margin">
-              <textarea class="uk-textarea" rows="5" required="required" placeholder="Message"></textarea>
+              <textarea class="uk-textarea" rows="5" name="message" required="required" placeholder="Message"></textarea>
             </div>
 
             <button type="submit" class="uk-button uk-button-default" style="font-weight: 600; color: #fff;">SEND</button>
