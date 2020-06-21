@@ -39,8 +39,8 @@
 
       <!-- Work -->
       <div class="uk-margin-xlarge uk-padding-small projects">
-        <h3 style="font-weight: 600; font-size: 2.5rem;">Projects</h3>
-        <p></p>
+        <h3 style="font-weight: 600; font-size: 2.2rem;">Projects</h3>
+        <p style="font-size: 1.1em; font-weight: 200;"">These are a few projects I've worked on</p>
         <a href="https://www.shushionline.com" class="uk-card uk-card-default uk-background-cover uk-card-body uk-height-medium" style="background-image: url(img/clients/shushi.png);">
           <!-- <h5 class="uk-card-title uk-padding-small uk-position-bottom">SHUSHI</h5> -->
         </a>
@@ -68,29 +68,31 @@
       </div>
 
       <!-- Contact -->
-      <div class="uk-container">
+      <div class="uk-container contact">
         <form action="config/contact.php" >
           <fieldset class="uk-fieldset">   
             <legend class="uk-legend">Contact Form</legend>
             <p>You can write to me here: <a href="mailto:kukorimam@live.com" style="text-decoration: underline;">kukorimam@live.com</a> or fill the form below</p>
             <div class="uk-margin">
-              <input class="uk-input" type="text" placeholder="Name">
+              <input class="uk-input" type="text" required="required" placeholder="Name">
             </div>
 
             <div class="uk-margin">
-              <input class="uk-input" type="email" placeholder="Email Address">
+              <input class="uk-input" type="email" required="required" placeholder="Email Address">
             </div>
     
             <div class="uk-margin">
-              <textarea class="uk-textarea" rows="5" placeholder="Message"></textarea>
+              <textarea class="uk-textarea" rows="5" required="required" placeholder="Message"></textarea>
             </div>
 
             <button type="submit" class="uk-button uk-button-default" style="font-weight: 600; color: #fff;">SEND</button>
           </fieldset>
         </form>
+      </div>
 
+      <div class="uk-container">
         <p class="uk-margin-xlarge-top">Find me here</p>
-        <div class="socials">
+        <div class="socials uk-margin-xlarge-bottom">
           <a class="uk-margin-small-right twitter" href="https://twitter.com/kukorimam_" uk-icon="icon: twitter"></a>
           <a class="uk-margin-small-right instagram" href="https://www.instagram.com/kukorimam_" uk-icon="icon: instagram"></a>
           <a class="uk-margin-small-right github" href="https://www.instagram.com/kukorimam_" uk-icon="icon: github"></a>
