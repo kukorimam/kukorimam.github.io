@@ -12,11 +12,6 @@
   </head>
 
   <body>
-
-    
-    <!-- <div class="uk-navbar-right">
-      <a class="uk-navbar-toggle" style="color: #fff;" uk-navbar-toggle-icon href="#"></a>
-    </div> -->
   
     <!-- Mobile View -->
     <section class="mobile uk-padding-small uk-hidden@s uk-black">
@@ -44,6 +39,8 @@
 
       <!-- Work -->
       <div class="uk-margin-xlarge uk-padding-small projects">
+        <h3 style="font-weight: 600; font-size: 2.5rem;">Projects</h3>
+        <p></p>
         <a href="https://www.shushionline.com" class="uk-card uk-card-default uk-background-cover uk-card-body uk-height-medium" style="background-image: url(img/clients/shushi.png);">
           <!-- <h5 class="uk-card-title uk-padding-small uk-position-bottom">SHUSHI</h5> -->
         </a>
@@ -71,8 +68,8 @@
       </div>
 
       <!-- Contact -->
-      <div class="uk-padding-small uk-margin-xlarge-top contact">
-        <form>
+      <div class="uk-container">
+        <form action="config/contact.php" >
           <fieldset class="uk-fieldset">   
             <legend class="uk-legend">Contact Form</legend>
             <p>You can write to me here: <a href="mailto:kukorimam@live.com" style="text-decoration: underline;">kukorimam@live.com</a> or fill the form below</p>
@@ -87,14 +84,17 @@
             <div class="uk-margin">
               <textarea class="uk-textarea" rows="5" placeholder="Message"></textarea>
             </div>
+
+            <button class="uk-button uk-button-default" style="font-weight: 600; color: #fff;">SEND</button>
           </fieldset>
         </form>
 
-        <p>Find me here</p>
+        <p class="uk-margin-xlarge-top">Find me here</p>
         <div class="socials">
-          <a href="https://twitter.com/kukorimam_" uk-icon="icon: twitter"></a>
-          <a href="https://www.instagram.com/kukorimam_/" uk-icon="icon: instagram"></a>
-          <a href="" uk-icon="icon: plane"></a>
+          <a class="uk-margin-small-right twitter" href="https://twitter.com/kukorimam_" uk-icon="icon: twitter"></a>
+          <a class="uk-margin-small-right instagram" href="https://www.instagram.com/kukorimam_" uk-icon="icon: instagram"></a>
+          <a class="uk-margin-small-right github" href="https://www.instagram.com/kukorimam_" uk-icon="icon: github"></a>
+          <a class="dribbble" href="https://www.instagram.com/kukorimam_" uk-icon="icon: dribbble"></a>
         </div>
       </div>
     </section>

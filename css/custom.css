@@ -9,6 +9,16 @@ body {
     background-color: rgb(10, 10, 10);
 }
 
+::-moz-selection { 
+    background-color: #979797; 
+    color: #ffffff;
+}
+    
+::selection {
+    background-color: #979797;
+    color: #ffffff;
+}
+
 .uk-black {
     background-color: rgb(10, 10, 10);
 }
@@ -32,12 +42,8 @@ li {
     color: rgb(0, 0, 0);
 }
 
-.contact input {
-    color: rgb(0, 0, 0);
-}
-
 .contact a:hover {
-    color: rgb(175, 175, 175);
+    color: rgb(175, 175, 175) !important;
 }
 
 .contact legend {
@@ -45,6 +51,37 @@ li {
     font-size: 2.5rem;
 }
 
+.uk-input, .uk-textarea{
+    background-color: rgb(10, 10, 10);
+    border-width: 1px !important;
+    color: rgb(251, 251, 251);
+}
+
+.uk-input:focus {
+    background: rgb(10, 10, 10) !important;
+}
+
+.uk-textarea:focus {
+    background: rgb(10, 10, 10) !important;
+}
+
 .socials {
     display: inline-block;
+    margin-top: -5px !important;
+}
+
+.twitter:hover{
+    color: rgb(22, 123, 255) !important;
+}
+
+.instagram:hover{
+    color: rgb(255, 59, 108) !important;
+}
+
+.github:hover{
+    color: rgb(105, 105, 105) !important;
+}
+
+.dribbble:hover{
+    color: #ea4c89 !important;
 }
