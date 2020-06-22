@@ -35,7 +35,7 @@ body, section {
 .wrapper {
     display: flex;
     flex-direction: row;
-    min-width: 5000px;
+    min-width: 5900px;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
 }
@@ -65,15 +65,23 @@ body, section {
     margin-left: -100px;;
 }
 
+.about a {
+    text-decoration: underline;
+}
+
+.about a:hover {
+    color: rgb(175, 175, 175) !important;
+}
+
 /* @media (min-width: 960px) { 
     .uk-container {
-        padding-left: 0px;
+        padding-left: 40px;
         padding-right: 0px;
     }
 }
 @media (min-width: 640px) {
     .uk-container {
-        padding-left: 0px;
+        padding-left: 30px;
         padding-right: 0px;
     }
 } */
@@ -83,7 +91,7 @@ body, section {
     border-right: 0.1rem solid #fff;
 }
 
-.txt-type {
+.txt-typ, .txt-type {
     text-decoration: underline;
 }
 
