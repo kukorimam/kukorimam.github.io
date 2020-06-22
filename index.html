@@ -12,9 +12,126 @@
   </head>
 
   <body>
-  
+    <!-- Desktop UI -->
+    <div class="uk-visible@s outter-wrapper">
+      <div class="wrapper">
+        <nav class="nav uk-padding" uk-navbar>
+          <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="#">
+              <img src="img/logo.png" style="width: 32px;">
+            </a>
+          </div>
+        </nav>
+        <section class="uk-container uk-align-center uk-flex uk-flex-middle uk-margin-remove-bottom uk-margin-remove-top" style="max-width: 1000px;" uk-height-viewport>
+          <div class="uk-margin-xlarge-left"> 
+            <h2 style="font-weight: 600; font-size: 5rem;">Hi, I'm Kukorimam Markus.</h2>
+            <p style="font-size: 1.1em; font-weight: 200;">I am a 
+              <strong>
+                <span class="txt-type" data-wait="3000" data-words='["Web Developer", "UI Designer", "Graphic Designer"]'></span>
+              </strong>
+            living & freelancing in Abuja, Nigeria.</p>
+          </div>
+        </section>
+        
+
+        <section class="uk-container uk-align-center uk-flex uk-flex-middle uk-margin-remove-bottom uk-margin-remove-top uk-margin-remove-left uk-margin-remove-right" style="max-width: 400px;" uk-height-viewport>
+          <div class="p-header">
+            <p>projects</p>
+          </div>
+        </section>
+
+        <section class="uk-container uk-align-center uk-flex uk-flex-middle uk-margin-remove-bottom uk-margin-remove-top" uk-height-viewport>
+          <div uk-grid>
+            <div>
+              <div class="uk-card uk-card-default uk-card-body uk-width-medium" uk-height-viewport="offset-bottom: 20">Item</div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="uk-container uk-align-center uk-flex uk-flex-middle uk-margin-remove-bottom uk-margin-remove-top" uk-height-viewport>
+          <div uk-grid>
+            <div>
+              <div class="uk-card uk-card-default uk-card-body uk-width-medium" uk-height-viewport="offset-bottom: 20">Item</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="uk-container uk-align-center uk-flex uk-flex-middle uk-margin-remove-bottom uk-margin-remove-top" uk-height-viewport>
+          <div uk-grid>
+            <div>
+              <div class="uk-card uk-card-default uk-card-body uk-width-medium" uk-height-viewport="offset-bottom: 20">Item</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="uk-container uk-align-center uk-flex uk-flex-middle uk-margin-remove-bottom uk-margin-remove-top" uk-height-viewport>
+          <div uk-grid>
+            <div>
+              <div class="uk-card uk-card-default uk-card-body uk-width-medium" uk-height-viewport="offset-bottom: 20">Item</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="uk-container uk-align-center uk-flex uk-flex-middle uk-margin-remove-bottom uk-margin-remove-top" uk-height-viewport>
+          <div uk-grid>
+            <div>
+              <div class="uk-card uk-card-default uk-card-body uk-width-medium" uk-height-viewport="offset-bottom: 20">Item</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="uk-container uk-align-center uk-flex uk-flex-middle uk-margin-remove-bottom uk-margin-remove-top" uk-height-viewport>
+          <div uk-grid>
+            <div>
+              <div class="uk-card uk-card-default uk-card-body uk-width-medium" uk-height-viewport="offset-bottom: 20">Item</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="uk-container uk-align-center uk-flex uk-flex-middle uk-margin-remove-bottom uk-margin-remove-top uk-margin-remove-left uk-margin-remove-right" style="max-width: 400px;" uk-height-viewport>
+          <div class="p-header">
+            <p>contact</p>
+          </div>
+        </section>
+
+        <section class="uk-container uk-align-center uk-flex uk-flex-middle uk-margin-remove-bottom uk-margin-remove-top" uk-height-viewport>
+          <div class="uk-container contact uk-margin-xlarge-right">
+            <form id="contact-form" method="post" action="config/contact.php" role="form">
+              <fieldset class="uk-fieldset">   
+                <legend class="uk-legend">Contact Form</legend>
+                <p>You can write to me here: <a href="mailto:kukorimam@live.com" style="text-decoration: underline;">kukorimam@live.com</a> or fill the form below</p>
+                <div class="uk-margin">
+                  <input class="uk-input" type="text" name="name" required="required" placeholder="Fullname">
+                </div>
+                <div class="uk-margin">
+                  <input class="uk-input" type="email"name="email"  required="required" placeholder="Email Address">
+                </div>
+                <div class="uk-margin">
+                  <textarea class="uk-textarea" rows="5" name="message" required="required" placeholder="Message"></textarea>
+                </div>
+    
+                <button type="submit" class="uk-button uk-button-default" style="font-weight: 600; color: #fff;">SEND</button>
+              </fieldset>
+            </form>
+
+            <p class="uk-margin-xlarge-top">Find me here</p>
+            <div class="socials">
+              <a class="uk-margin-small-right twitter" href="https://twitter.com/kukorimam_" uk-icon="icon: twitter"></a>
+              <a class="uk-margin-small-right instagram" href="https://www.instagram.com/kukorimam_" uk-icon="icon: instagram"></a>
+              <a class="uk-margin-small-right github" href="https://www.instagram.com/kukorimam_" uk-icon="icon: github"></a>
+              <a class="dribbble" href="https://www.instagram.com/kukorimam_" uk-icon="icon: dribbble"></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    
+
+
+
+
     <!-- Mobile View -->
-    <section class="mobile uk-padding-small uk-hidden@s uk-black">
+    <section class="mobile uk-padding-small uk-hidden@s uk-black" uk-scrollspy="cls: uk-animation-fade; target: div; delay: 200; repeat: false">
 
       <!-- Navigation -->
       <nav uk-navbar>
@@ -38,9 +155,9 @@
       </div>
 
       <!-- Work -->
-      <div class="uk-margin-xlarge uk-padding-small projects">
-        <h3 style="font-weight: 600; font-size: 2.2rem;">Projects</h3>
-        <p style="font-size: 1.1em; font-weight: 200;"">These are a few projects I've worked on</p>
+      <div class="uk-margin-xlarge uk-padding-small projects-m">
+        <h3 style="font-weight: 300; font-size: 2.2rem;">Projects</h3>
+        <p style="font-size: 1.1rem; font-weight: 200;"">These are a few projects I've worked on</p>
         <a href="https://www.shushionline.com" class="uk-card uk-card-default uk-background-cover uk-card-body uk-height-medium" style="background-image: url(img/clients/shushi.png);">
           <!-- <h5 class="uk-card-title uk-padding-small uk-position-bottom">SHUSHI</h5> -->
         </a>
@@ -90,12 +207,13 @@
 
       <div class="uk-container">
         <p class="uk-margin-xlarge-top">Find me here</p>
-        <div class="socials uk-margin-xlarge-bottom">
+        <div class="socials uk-margin-medium-bottom">
           <a class="uk-margin-small-right twitter" href="https://twitter.com/kukorimam_" uk-icon="icon: twitter"></a>
           <a class="uk-margin-small-right instagram" href="https://www.instagram.com/kukorimam_" uk-icon="icon: instagram"></a>
           <a class="uk-margin-small-right github" href="https://www.instagram.com/kukorimam_" uk-icon="icon: github"></a>
           <a class="dribbble" href="https://www.instagram.com/kukorimam_" uk-icon="icon: dribbble"></a>
         </div>
+        <p style="font-size: 0.8rem; color: rgb(66, 66, 66);">Designed by Kukorimam</p>
       </div>
     </section>
     

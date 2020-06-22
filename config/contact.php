@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>KayzMark - Official Website</title>
-    <meta name="description" content="">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <meta http-equiv="refresh" content="5;url=http://www.kayzmark.github.io/" />

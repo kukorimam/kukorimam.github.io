@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
 
 body, a, p, h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif !important;
     color: #fff;
 }
 
-body {
-    background-color: rgb(10, 10, 10);
+body, section {
+    background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 ::-moz-selection { 
@@ -20,8 +24,59 @@ body {
 }
 
 .uk-black {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(0, 0, 0);
 }
+
+.nav {
+    position: absolute;
+    margin-top: 0px !important;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    min-width: 5078px;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+  
+.outter-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.uk-container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.p-header p{
+    transform: rotate(-90deg);
+    color: #85858528;
+    font-weight: 900;
+    font-size: 10em;
+    margin-left: -100px;;
+}
+
+/* @media (min-width: 960px) { 
+    .uk-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (min-width: 640px) {
+    .uk-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+} */
 
 /* Cursor */
 .txt-type > .txt {
@@ -32,37 +87,27 @@ body {
     text-decoration: underline;
 }
 
-li {
-    display: inline;
-    list-style: none;
-}
-
-.projects h5 {
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-}
-
 .contact a:hover {
     color: rgb(175, 175, 175) !important;
 }
 
 .contact legend {
-    font-weight: 900; 
-    font-size: 2.5rem;
+    font-weight: 300; 
+    font-size: 2.2rem;
 }
 
 .uk-input, .uk-textarea{
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(0, 0, 0);
     border-width: 1px !important;
     color: rgb(251, 251, 251);
 }
 
 .uk-input:focus {
-    background: rgb(10, 10, 10) !important;
+    background: rgb(0, 0, 0) !important;
 }
 
 .uk-textarea:focus {
-    background: rgb(10, 10, 10) !important;
+    background: rgb(0, 0, 0) !important;
 }
 
 .socials {
