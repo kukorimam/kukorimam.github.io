@@ -90,6 +90,10 @@ body, section {
     }
 }
 
+section img {
+    width: 200px;
+}
+
 /* Cursor */
 .txt-type > .txt {
     border-right: 0.1rem solid #fff;
