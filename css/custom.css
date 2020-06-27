@@ -35,7 +35,7 @@ body, section {
 .wrapper {
     display: flex;
     flex-direction: row;
-    min-width: 5900px;
+    min-width: 6300px;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
 }
@@ -69,22 +69,26 @@ body, section {
     text-decoration: underline;
 }
 
+.uk-width-large {
+    width: 400px !important;
+}
+
 .about a:hover {
     color: rgb(175, 175, 175) !important;
 }
 
-/* @media (min-width: 960px) { 
+@media (min-width: 960px) { 
     .uk-container {
-        padding-left: 40px;
-        padding-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media (min-width: 640px) {
     .uk-container {
-        padding-left: 30px;
-        padding-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
-} */
+}
 
 /* Cursor */
 .txt-type > .txt {
