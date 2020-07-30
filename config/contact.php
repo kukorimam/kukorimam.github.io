@@ -31,7 +31,7 @@
       }
     </style>
     <?php
-      $from = 'A Visitor<contact@kayzmark.com>';
+      $from = 'A Visitor<contact@kayzmark.github.io>';
       $sendTo = 'Kukorimam Markus<kukorimam@live.com>';
       $subject = 'Website Contact Form';
       $fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
