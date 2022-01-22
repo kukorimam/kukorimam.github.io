@@ -35,7 +35,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: row;
-    min-width: 10800px;
+    min-width: 700em;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
 }
@@ -65,16 +65,8 @@ body {
     margin-left: -100px;;
 }
 
-.about a {
-    text-decoration: underline;
-}
-
 .uk-width-large {
     width: 400px !important;
-}
-
-.about a:hover {
-    color: rgb(175, 175, 175) !important;
 }
 
 @media (min-width: 960px) { 
@@ -144,4 +136,25 @@ section img {
 
 .dribbble:hover{
     color: #ea4c89 !important;
+}
+
+.aslan a{
+    background-image: linear-gradient(to right,#04CCBF,#02A2F2);
+    background-clip: text;
+    display: inline-block;
+    -webkit-text-fill-color: #00000000;
+}
+
+.aslan a:hover {
+    text-decoration: underline !important;
+}
+
+.core a:hover {
+    text-decoration: underline !important;
+    color:#C7442C !important;
+}
+
+.fireworks a:hover {
+    text-decoration: underline !important;
+    color:#ED3237 !important;
 }
