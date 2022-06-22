@@ -158,3 +158,9 @@ section img {
     text-decoration: underline !important;
     color:#ED3237 !important;
 }
+
+.uk-icon-image {
+    width: 56px !important;
+    height: 20px !important;
+
+}
